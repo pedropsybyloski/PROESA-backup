@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    height: 71px;
+    width: 100%;
+    background: #3D0357;
+    text-align: center;
+    padding: 20px;
+}
+
+.header p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-right: 13%;
+}
+
+textarea {
+    height: 300px !important;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.inputestilodesc {
+    background-color: #F0F0F0;
+    border: none;
+    width: 119%;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.side {
+    display: flex;
+    width: 100% !important;
+}
+
+
+.inputestilosidecadastroprodutoname {
+    background-color: #F0F0F0;
+    border: none;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    float: left !important;
+    width: 123% !important;
+}
+
+.inputestilosidecadastrovalor {
+    background-color: #F0F0F0;
+    border: none;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    float: left !important;
+    width: 123% !important;
+    margin-bottom: 10px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+input:focus {
+    outline: none;
+  }
+
+.input p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+.produtoinputSidebySide2 {
+        margin-left: 47%;
+}
+
+.produtoinputSidebySide2 p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+.inputSidebySide p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+.buttonline {
+    display: flex;
+    width: 115% !important;
+}
+
+.button {
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button2 {
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .inputestilosidecadastroprodutovalor input {
+      margin: 10px 0;
+    }
+
+    .produtoinputSidebySide2 {
+        margin-left: 0px !important;
+      }
+    
+    .dtninputestilocadastroclienteside {
+        width: 300% !important;
+    }
+  
+    .side {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }

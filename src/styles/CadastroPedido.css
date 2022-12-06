@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    height: 71px;
+    width: 100%;
+    background: #3D0357;
+    text-align: center;
+    padding: 20px;
+}
+
+.header p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-right: 13%;
+}
+
+textarea {
+    height: 240px !important;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.inputestilopedido {
+    background-color: #F0F0F0;
+    border: none;
+    width: 119%;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.side {
+    display: flex;
+    width: 200%;
+}
+
+
+.inputestilosideped {
+    background-color: #F0F0F0;
+    border: none;
+    width: 100% !important;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.prodprocinput {
+    background-color: #F0F0F0;
+    border: none;
+    width: 119% !important;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+input:focus {
+    outline: none;
+  }
+
+.input p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 10px;
+}
+
+.inputSidebySideped2 {
+    margin-left: 40% !important;
+}
+
+.inputSidebySideped2 p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.inputSidebySideped p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.buttonline {
+    display: flex;
+    width: 119%;
+}
+
+.button {
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button2 {
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .inputSidebySideped2 {
+        margin-left: 0px !important;
+    }
+}

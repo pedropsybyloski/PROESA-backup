@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    height: 71px;
+    width: 100%;
+    background: #3D0357;
+    text-align: center;
+    padding: 20px;
+}
+
+.header p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-right: 13%;
+}
+
+.inputestilofullcliente {
+    background-color: #F0F0F0;
+    border: none;
+    width: 122.5% !important;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.inputestilo2 {
+    background-color: #F0F0F0;
+    border: none;
+    margin-top: 40px;
+    width: 122.5% !important;
+    height: 400px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    padding: 5%;
+}
+
+.lineclient {
+    display: flex;
+}
+
+.buttonclient {
+    float: left;
+    margin-left: 20px;
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 10%;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+.buttonedit {
+    float: left;
+    margin-left: 20px;
+    background: #326e41;
+    text-align: center;
+    color: white;   
+    width: 10%;
+    font-size: 80%;
+    cursor: pointer;
+}
+
+
+
+.showclient {
+    width: 85%;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+input:focus {
+    outline: none;
+  }
+
+input {
+    width: 100% !important;
+}
+
+.input p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+.buttonline {
+    display: flex;
+    width: 139%;
+}
+
+.button3 {
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button2 {
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}

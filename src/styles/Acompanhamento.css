@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    height: 71px;
+    width: 100%;
+    background: #3D0357;
+    text-align: center;
+    padding: 20px;
+}
+
+.header p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-right: 13%;
+}
+
+.inputestiloacomp {
+    background-color: #F0F0F0;
+    border: none;
+    width: 119%;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+.inputestiloacomp2 {
+    background-color: #F0F0F0;
+    border: none;
+    width: 119%;
+    height: 300px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    text-align: none;
+}
+
+.side {
+    display: flex;
+    width: 200%;
+}
+
+
+.inputestiloacompside {
+    background-color: #F0F0F0;
+    border: none;
+    width: 150%;
+    height: 40px;
+    color: Black;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+input:focus {
+    outline: none;
+  }
+
+textarea:focus{
+    outline: none;
+}
+
+.input p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+.inputSidebySide2 {
+    margin-left: 200px;
+}
+
+.inputSidebySide2 p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+.inputSidebySide p{
+    color: #3D0357;
+    font-family: 'Inter', sans-serif;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+.buttonline {
+    display: flex;
+    width: 119%;
+}
+
+.button {
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button2 {
+    background: #3D0357;
+    text-align: center;
+    color: white;   
+    width: 268px;
+    height: 48px;
+    font-size: 150%;
+    margin-top: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
